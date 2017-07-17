@@ -1,0 +1,206 @@
+[22-Jul-2016 14:20:36 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 11
+[22-Jul-2016 14:20:36 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 26
+[22-Jul-2016 14:21:23 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:21:33 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:22:28 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 26
+[22-Jul-2016 14:22:40 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 11
+[22-Jul-2016 14:22:40 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 26
+[22-Jul-2016 14:23:06 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:24:38 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:25:30 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:25:58 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:26:00 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:26:03 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:26:04 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:27:15 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:27:17 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:28:19 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:28:21 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:28:24 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:28:36 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:28:54 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:29:10 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:29:11 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:29:12 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(9): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:36:25 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(10): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:41:06 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(10): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:41:15 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 118
+[22-Jul-2016 14:41:15 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 30
+[22-Jul-2016 14:42:12 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 118
+[22-Jul-2016 14:42:13 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 30
+[22-Jul-2016 14:42:59 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 118
+[22-Jul-2016 14:42:59 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 30
+[22-Jul-2016 14:43:38 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 118
+[22-Jul-2016 14:43:39 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 30
+[22-Jul-2016 14:43:51 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 118
+[22-Jul-2016 14:43:51 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 30
+[22-Jul-2016 14:43:54 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 118
+[22-Jul-2016 14:43:54 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 30
+[22-Jul-2016 14:44:25 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 118
+[22-Jul-2016 14:44:25 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 30
+[22-Jul-2016 14:44:26 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 118
+[22-Jul-2016 14:44:27 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 30
+[22-Jul-2016 14:44:37 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 30
+[22-Jul-2016 14:45:20 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(10): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:45:22 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(10): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:45:48 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(12): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:45:49 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(12): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:45:55 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 31
+[22-Jul-2016 14:47:16 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 31
+[22-Jul-2016 14:48:49 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(12): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:48:51 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(12): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:49:19 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(10): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:49:24 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 31
+[22-Jul-2016 14:50:43 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(10): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:51:11 Europe/Paris] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/login_with_google_using_php/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php(11): Google_Client->authenticate()
+#2 {main}
+  thrown in /home/megacour/public_html/mini_projet/login_with_google_using_php/src/auth/Google_OAuth2.php on line 113
+[22-Jul-2016 14:51:16 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/megacour/public_html/mini_projet/login_with_google_using_php/includes/functions.php:34) in /home/megacour/public_html/mini_projet/login_with_google_using_php/index.php on line 31

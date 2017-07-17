@@ -1,0 +1,6 @@
+[21-Jul-2016 08:01:40 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/megacour/public_html/mini_projet/Upload_Insert_Update_Delete_Image_PHP_MySQL/index.php on line 58
+[21-Jul-2016 08:04:30 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'megacour_dev.tbl_users' doesn't exist' in /home/megacour/public_html/mini_projet/Upload_Insert_Update_Delete_Image_PHP_MySQL/index.php:59
+Stack trace:
+#0 /home/megacour/public_html/mini_projet/Upload_Insert_Update_Delete_Image_PHP_MySQL/index.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in /home/megacour/public_html/mini_projet/Upload_Insert_Update_Delete_Image_PHP_MySQL/index.php on line 59

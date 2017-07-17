@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #5d5d5d url(../img/bg.jpg) no-repeat center top;
+	background-attachment: fixed;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+#header {
+	background: url(../img/transparency.png) repeat;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+/*------ menu -------*/
+
+#menu {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#menu ul {
+	padding: 0;
+	list-style: none;
+	margin: 30px 0 0 0;
+	font-family: "Trebuchet MS", Arial;
+	font-size: 15px;
+}
+
+#menu ul li {
+	display: inline;
+	margin-right: 80px;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+/*----- ombre image -------*/
+.image-ombre {
+	background: url(../img/ombre-image.png) no-repeat center 306px;
+	height: 400px;
+}
+
+/* je definis ici des tailles pour les div img1, img2, etc afin de pouvoir décaler la photo du haut */
+
+#img1, #img2, #img3, #img4, #img5, #img6 {
+	height: 100px;
+}
+
+#espace-bas {
+	height: 240px;
+}
+

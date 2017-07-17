@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JSON Parsing in jQuery DataTables</title>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.8/datatables.min.css"/>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="page-header">
+<h1><a href="http://www.codingcage.com/2016/06/parse-json-data-easily-in-jquery.html" target="_blank">JSON Parsing in jQuery DataTables</a></h1>
+</div>
+
+<table id="example" class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Post Title</th>
+                <th>Post URL</th>
+            </tr>
+        </thead>
+ 
+</table>
+    
+</div>
+    
+<script type="text/javascript" src="https://cdn.datatables.net/r/bs-3.3.5/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#example').DataTable( {
+        "ajax": "getposts.json",
+		
+		"columnDefs": [ {
+			"targets": 1,
+			"data": "postUrl",
+			"render": function(data){
+				return '<a href="'+data+'">view</a>';
+			}
+		}],
+		
+        "columns": [
+            
+			{ "data": "postTitle" },
+			{ "data": "postUrl" }
+        ]
+    } );
+} );
+</script>
+
+</body>
+</html>

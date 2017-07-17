@@ -1,0 +1,189 @@
+body{
+  /*background: url(../images/bg.jpg) no-repeat -155px 0px;*/
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+body a,form li,input[type="submit"],input[type="text"],.sixth-login input[type="submit"],.third-login input[type="submit"]{
+		transition: 0.1s all;
+		-webkit-transition: 0.1s all;
+		-moz-transition: 0.1s all;
+		-o-transition: 0.1s all;
+}
+h2 {
+	  font-family: 'Marvel', sans-serif;
+	  text-align: center;
+	  color: #fff;
+	  font-size: 1.5em;
+	  font-weight: 300;
+	  background: #3E4E95;
+	  padding: 15px;
+	  border-bottom: none;
+	  margin-bottom: 0px;
+}
+	.avtar img {
+	  height: 17px;
+	  width: 100%;
+	}
+
+.form-info {
+	  margin: 2em 2em 0 2em;
+}
+.registration {
+	  /*background: rgba(255, 255, 255, 0.08);*/
+	  background: url(../images/bg.jpg) no-repeat -155px 0px;
+	  width: 27%;
+	  margin: 2% auto 0;
+	  padding-bottom: 1%;
+}
+input.text {
+	  outline: none;
+	  background: none;
+	  color: #fff;
+	  width: 94%;
+	  padding: 10px 10px;
+	  border: 1px solid#fff;
+	  font-size: 1em;
+	  font-weight: 100;
+	  margin-bottom: 1em;
+}
+input.text:hover {
+  background: #fff;
+  color: #3E4E95;
+    		transition: 2s all;
+		-webkit-transition: 2s all;
+		-moz-transition: 2s all;
+		-o-transition: 2s all;
+}
+textarea {
+outline: none;
+  background: none;
+  color: #fff;
+  width: 94%;
+  padding: 10px 10px;
+  border: 1px solid#fff;
+  font-size: 1.1em;
+  font-weight: 100;
+  resize: none;
+  height: 120px;
+  font-family: 'Open Sans', sans-serif;
+}
+textarea:hover {
+	  background: #fff;
+	  color: #3E4E95;
+  		transition: 2s all;
+		-webkit-transition: 2s all;
+		-moz-transition: 2s all;
+		-o-transition: 2s all;
+}
+input[type="submit"] {
+	  outline: none;
+	  background: none;
+	  border: 1px solid#fff;
+	  color: #fff;
+	  width: 99%;
+	  margin: 1em 0 .5em 0;
+	  padding: 12px;
+	  font-size: 15px;
+	  font-weight: 400;
+	  cursor: pointer;
+}
+input[type="submit"]:hover {
+		background: #fff;
+		color:#3E4E95;  		
+		transition: 2s all;
+		-webkit-transition: 2s all;
+		-moz-transition: 2s all;
+		-o-transition: 2s all;
+}
+.g-recaptcha{ width: 100%;margin: 1em 0 .5em .8em;}
+.succMsg{ color:#009755 ; font-size: 15px;font-weight: bold;padding-top: 15px;}
+.errMsg{ color:#fb4314 ; font-size: 15px;font-weight: bold;padding-top: 15px;}
+@media (max-width:1440px){
+	.registration {
+	  width: 31%;
+	}
+}
+@media (max-width:1366px){
+	
+}
+@media (max-width:1280px){
+	.registration {
+	  width: 33%;
+	}
+	
+}
+@media (max-width:1024px){
+	.registration {
+	  width: 41%;
+	    margin: 1% auto 0;
+	}
+	
+	.registration {
+	  margin: 2% auto 0;
+	}
+}
+@media (max-width:768px){
+	.registration {
+	  width: 50%;
+	}
+	
+	input[type="submit"] {
+	  width: 100%;
+	}
+	.registration {
+	  margin: 3% auto 0;
+	}
+	
+}
+
+@media (max-width:640px){
+	.registration {
+	  width: 82%;
+	    margin: 3% auto 0;
+	}
+	
+}
+@media (max-width:480px){
+	.registration {
+	  width: 85%;
+	}
+	
+}
+
+@media (max-width:320px){
+	
+	.registration {
+	  width: 92%;
+	    margin: 4% auto 0;
+	}
+	textarea {
+	  width: 94%;
+	  padding: 7px 6px;
+	  height: 100px;
+	  font-size: .97em;
+	}
+	.form-info {
+	  margin: 1em 1em 0 1em;
+	}
+	
+	input.text {
+	 padding: 10px 6px;
+     font-size: .9em;
+	}
+	input[type="submit"] {
+	  width: 99%;
+	  padding: 8px;
+	  font-size: 14px;
+	}
+	
+	.avtar img {
+	  height: 7px;
+	  width: 100%;
+	  float: left;
+	  margin-bottom: 20px;
+	}
+}

@@ -1,0 +1,2 @@
+[21-Jul-2016 18:24:11 Europe/Paris] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/megacour/public_html/mini_projet/star_rating_jquery_ajax_php/dbConfig.php on line 9
+[21-Jul-2016 18:25:25 Europe/Paris] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/megacour/public_html/mini_projet/star_rating_jquery_ajax_php/index.php on line 6

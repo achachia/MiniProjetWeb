@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JSON jQuery Parsing</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+    
+    	<div class="page-header">
+        <h2><a href="http://www.codingcage.com/2016/06/how-to-read-json-data-in-php-with.html">Read/Display JSON Data using jQuery</a></h2>
+        </div>
+        
+        <div class="table-responsive">
+        
+        	<table id="json-data" class="table table-bordered table-hover">
+            <tr>
+            <th>Post Title</th>
+            <th>Post Url</th>
+            </tr>
+            </table>
+        
+        </div>
+    
+    </div>
+    
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+
+<script type="text/javascript">
+ 
+$(document).ready(function(){
+	
+	var url="getjson.php"; // PHP File
+	//var url="getposts.json"; // JSON File
+
+	$.getJSON(url,function(data){
+		console.log(data);
+		$.each(data.tutorials, function(i,post){
+		var newRow =
+		"<tr>"
+		+"<td>"+post.postTitle+"</td>"
+		+"<td><a href='"+post.postUrl+"'>Visit</a></td>"
+		+"</tr>" ;
+		$(newRow).appendTo("#json-data");
+		});
+	});
+	
+	
+	/*   following is the $.ajax() example     
+	
+	$.ajax({
+		url: 'getjson.php',
+		dataType: 'json',
+	})
+	.done(function(data){
+		console.log(data);
+		$.each(data.tutorials, function(i,post){
+		var newRow =
+		"<tr>"
+		+"<td>"+post.postTitle+"</td>"
+		+"<td><a href='"+post.postUrl+"'>Visit</a></td>"
+		+"</tr>" ;
+		$(newRow).appendTo("#json-data");
+		});
+	})
+	.fail(function(){
+		alert('fail parsing');
+	}) 
+	
+	*/
+	
+});
+ 
+</script>
+
+
+
+</body>
+</html>

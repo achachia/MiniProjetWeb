@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Add WYSIWYG HTML Editor to textarea on Your Website by CodexWorld</title>
+    <script src='tinymce/tinymce.min.js'></script>
+    <script>
+    tinymce.init({
+        selector: '#myTextarea',
+        language: 'fr_FR',
+        height: 500,
+        theme: 'modern',
+        plugins: [
+          'eqneditor advlist autolink lists link image charmap print preview hr anchor pagebreak',
+          'searchreplace wordcount visualblocks visualchars code fullscreen',
+          'insertdatetime media nonbreaking save table contextmenu directionality',
+          'emoticons template paste textcolor colorpicker textpattern imagetools'
+        ],
+        toolbar1: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | eqneditor link image',
+        toolbar2: 'print preview media | forecolor backcolor emoticons',
+        image_advtab: true
+    });
+    </script>
+</head>
+<body>
+    <textarea name="myTextarea" id="myTextarea"></textarea>
+</body> 
+</html>

@@ -1,0 +1,4 @@
+[21-Jul-2016 21:22:37 Europe/Paris] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/megacour/public_html/mini_projet/autocomplete_textbox_jquery_php_myql/search.php on line 12
+[21-Jul-2016 21:22:39 Europe/Paris] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/megacour/public_html/mini_projet/autocomplete_textbox_jquery_php_myql/search.php on line 12
+[21-Jul-2016 21:22:40 Europe/Paris] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/megacour/public_html/mini_projet/autocomplete_textbox_jquery_php_myql/search.php on line 12
+[21-Jul-2016 21:22:44 Europe/Paris] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/megacour/public_html/mini_projet/autocomplete_textbox_jquery_php_myql/search.php on line 12
